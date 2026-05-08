@@ -44,11 +44,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="hidden lg:block">
-                <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/hero-dental-safety-aVACnYmdT4sGbGyKs5Y6Ra.webp" 
-                  alt="Segurança Odontológica" 
-                  className="rounded-lg shadow-lg"
-                />
+            <img 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/hero-dental-safety-pt-Y9sPLBfaqndVHGfevxsBEo.webp" 
+              alt="Segurança Odontológica" 
+              className="rounded-lg shadow-lg"
+            />
               </div>
             </div>
           </div>
@@ -69,11 +69,11 @@ export default function Home() {
               {/* Antes */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="order-2 lg:order-1">
-                  <img 
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/maria-story-before-ftP3o3CXoeywHaTwVLXhkr.webp" 
-                    alt="Maria antes do procedimento" 
-                    className="rounded-lg shadow-lg"
-                  />
+                <img 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/maria-story-before-pt-EpKma3Ve3LqeaQLQJJggN9.webp" 
+                  alt="Maria antes do procedimento" 
+                  className="rounded-lg shadow-lg"
+                />
                 </div>
                 <div className="order-1 lg:order-2 space-y-4">
                   <div className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full font-semibold">
@@ -117,7 +117,7 @@ export default function Home() {
                   </p>
                 </div>
                 <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/maria-story-consequences-GCvDPQh2RJMQXHtxjsx.webp" 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/maria-story-consequences-pt-FsSF6nKaMNMRCqrt9t3yus.webp" 
                   alt="Consequências do erro" 
                   className="rounded-lg shadow-lg"
                 />
@@ -181,7 +181,7 @@ export default function Home() {
             </div>
 
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/dental-safety-checklist-SCCsXoNSBsiWGHKPcRqbMk.webp" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/dental-safety-checklist-pt-DHFxv8JFJwepJ8wrzZxusD.webp" 
               alt="Checklist de Segurança Odontológica" 
               className="rounded-lg shadow-lg w-full mb-12"
             />
@@ -273,7 +273,7 @@ export default function Home() {
             </div>
 
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/prevention-strategies-HS2VQEBDT39vjDeG3FWcox.webp" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663192280899/BCLLviXCguamVxEAhkGaQ4/prevention-strategies-pt-8633rFFJGKi68FS5pHounQ.webp" 
               alt="Estratégias de Prevenção" 
               className="rounded-lg shadow-lg w-full mb-12"
             />
@@ -350,6 +350,108 @@ export default function Home() {
                   </div>
                 </div>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Seção: Passo a Passo - O Que Observar e Como Agir */}
+        <section id="passo-a-passo" className="py-20 bg-white">
+          <div className="container max-w-6xl mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-foreground mb-4">Passo a Passo: O Que Observar e Como Agir</h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Guia prático para pacientes identificarem possíveis problemas e agirem corretamente
+              </p>
+            </div>
+
+            <div className="space-y-8 max-w-4xl mx-auto">
+              {/* Passo 1 */}
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                    1
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-foreground mb-2">Antes do Procedimento</h3>
+                  <div className="space-y-2 text-foreground">
+                    <p><strong>O que observar:</strong></p>
+                    <ul className="list-disc list-inside space-y-1 text-sm">
+                      <li>O dentista explicou claramente o procedimento?</li>
+                      <li>Você entendeu os riscos e benefícios?</li>
+                      <li>O consultório está limpo e organizado?</li>
+                      <li>O profissional pediu seu consentimento por escrito?</li>
+                    </ul>
+                    <p className="mt-3"><strong>Como agir:</strong> Se algo não ficou claro, faça perguntas. Exija um termo de consentimento assinado antes de qualquer procedimento invasivo.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Passo 2 */}
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                    2
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-foreground mb-2">Durante o Procedimento</h3>
+                  <div className="space-y-2 text-foreground">
+                    <p><strong>O que observar:</strong></p>
+                    <ul className="list-disc list-inside space-y-1 text-sm">
+                      <li>O dentista usa equipamento de proteção adequado?</li>
+                      <li>O ambiente está estéril e bem iluminado?</li>
+                      <li>A equipe trabalha com calma e organização?</li>
+                      <li>Você sente dor excessiva ou algo anormal?</li>
+                    </ul>
+                    <p className="mt-3"><strong>Como agir:</strong> Se sentir dor intensa, levante a mão para sinalizar. Não hesite em comunicar desconforto. Você tem direito a anestesia adequada.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Passo 3 */}
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                    3
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-foreground mb-2">Após o Procedimento</h3>
+                  <div className="space-y-2 text-foreground">
+                    <p><strong>O que observar:</strong></p>
+                    <ul className="list-disc list-inside space-y-1 text-sm">
+                      <li>O dentista explicou os cuidados pós-procedimento?</li>
+                      <li>Você recebeu instruções por escrito?</li>
+                      <li>Solicitou cópia dos registros e fotos do procedimento?</li>
+                      <li>Agendou acompanhamento para verificação?</li>
+                    </ul>
+                    <p className="mt-3"><strong>Como agir:</strong> Guarde todos os documentos e registros. Se tiver dúvidas, ligue para o consultório. Mantenha contato para acompanhamento.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Passo 4 */}
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                    4
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-foreground mb-2">Se Suspeitar de um Erro</h3>
+                  <div className="space-y-2 text-foreground">
+                    <p><strong>O que observar:</strong></p>
+                    <ul className="list-disc list-inside space-y-1 text-sm">
+                      <li>Dor persistente ou piora após alguns dias?</li>
+                      <li>Inchaço, infecção ou sangramento anormal?</li>
+                      <li>O resultado não corresponde ao combinado?</li>
+                      <li>Dificuldade em mastigar ou falar?</li>
+                    </ul>
+                    <p className="mt-3"><strong>Como agir:</strong> 1) Procure outra opinião profissional; 2) Documente todos os sintomas com fotos; 3) Guarde todos os comprovantes e registros; 4) Consulte um advogado especializado em direito odontológico; 5) Registre reclamação no Conselho Regional de Odontologia (CRO).</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

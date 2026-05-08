@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <>
       {/* Top Bar com Logo da Faculdade e Créditos */}
-      <div className="bg-secondary text-white py-3 border-b border-secondary/80">
+      <div className="bg-black text-white py-3 border-b border-black/80">
         <div className="container max-w-6xl mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img src="/manus-storage/logo-faculdade-serra-dourada_ac4fa23f.webp" alt="Faculdade Serra Dourada" className="h-12" />
